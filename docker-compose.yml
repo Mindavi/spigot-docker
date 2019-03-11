@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  minecraft:
+    image: mindavi/spigot
+   ports:
+      - 25565:25565
+    volumes:
+      - $HOME/data/minecraft:/var/minecraft
